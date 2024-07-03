@@ -1,6 +1,7 @@
 class A {
-  constructor(foo, bar) {
+  constructor(foo, bar, lorem = "Lorem ipsum dolor sit amet") {
     this.foo = foo
     this.bar = bar
+    this.lorem = lorem
   }
 }
